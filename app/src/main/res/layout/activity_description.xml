@@ -11,7 +11,7 @@
 <androidx.constraintlayout.widget.ConstraintLayout
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".DescriptionActivity">
+    tools:context=".activity.DescriptionActivity">
 
     <ImageButton
         android:id="@+id/description_add_backArrow1"

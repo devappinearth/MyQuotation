@@ -16,18 +16,18 @@
             android:value="ca-app-pub-9182262619189802~3178247048"/>
 
 
-        <activity android:name=".TermsAndPrivacyActivity"></activity>
-        <activity android:name=".DescriptionNotificationActivity" />
-        <activity android:name=".DescriptionDeleteActivity" />
-        <activity android:name=".DescriptionUpdateActivity" />
-        <activity android:name=".DescriptionAddActivity" />
-        <activity android:name=".DescriptionActivity" />
-        <activity android:name=".SortQuotationActivity" />
-        <activity android:name=".SortTitleActivity" />
-        <activity android:name=".QuotationCreateActivity" />
-        <activity android:name=".QuotationListActivity" />
-        <activity android:name=".QuotationContentActivity" />
-        <activity android:name=".TitleListActivity">
+        <activity android:name=".activity.TermsAndPrivacyActivity"></activity>
+        <activity android:name=".activity.DescriptionNotificationActivity" />
+        <activity android:name=".activity.DescriptionDeleteActivity" />
+        <activity android:name=".activity.DescriptionUpdateActivity" />
+        <activity android:name=".activity.DescriptionAddActivity" />
+        <activity android:name=".activity.DescriptionActivity" />
+        <activity android:name=".activity.SortQuotationActivity" />
+        <activity android:name=".activity.SortTitleActivity" />
+        <activity android:name=".activity.QuotationCreateActivity" />
+        <activity android:name=".activity.QuotationListActivity" />
+        <activity android:name=".activity.QuotationContentActivity" />
+        <activity android:name=".activity.TitleListActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

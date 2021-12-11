@@ -3,18 +3,12 @@ package co.websarva.wings.android.myquotations.util;
 import android.app.Dialog;
 import android.content.DialogInterface;
 import android.os.Bundle;
-import android.widget.Button;
-import android.widget.EditText;
-import android.widget.ImageButton;
-import android.widget.RelativeLayout;
-import android.widget.TextView;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.fragment.app.DialogFragment;
 import androidx.appcompat.app.AlertDialog;
 
-import co.websarva.wings.android.myquotations.QuotationCreateActivity;
 import co.websarva.wings.android.myquotations.R;
 
 public class DuplicateAlertDialogFragment extends DialogFragment {

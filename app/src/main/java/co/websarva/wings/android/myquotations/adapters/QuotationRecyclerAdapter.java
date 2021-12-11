@@ -12,9 +12,7 @@ import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
 import java.util.ArrayList;
-import java.util.Random;
 
-import co.websarva.wings.android.myquotations.QuotationListActivity;
 import co.websarva.wings.android.myquotations.R;
 import co.websarva.wings.android.myquotations.persistence.QuotationRepository;
 import co.websarva.wings.android.myquotations.quotations.Quotations;

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="co.websarva.wings.android.myquotations">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MyQuotations">
+
+        <meta-data
+
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-9182262619189802~3178247048"/>
+
+
+        <activity android:name=".TermsAndPrivacyActivity"></activity>
+        <activity android:name=".DescriptionNotificationActivity" />
+        <activity android:name=".DescriptionDeleteActivity" />
+        <activity android:name=".DescriptionUpdateActivity" />
+        <activity android:name=".DescriptionAddActivity" />
+        <activity android:name=".DescriptionActivity" />
+        <activity android:name=".SortQuotationActivity" />
+        <activity android:name=".SortTitleActivity" />
+        <activity android:name=".QuotationCreateActivity" />
+        <activity android:name=".QuotationListActivity" />
+        <activity android:name=".QuotationContentActivity" />
+        <activity android:name=".TitleListActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+    </application>
+
+</manifest>
